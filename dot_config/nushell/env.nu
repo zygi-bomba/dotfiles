@@ -19,10 +19,9 @@
 
 let mise_path = $nu.default-config-dir | path join mise.nu
 ^~/.local/bin/mise activate nu | save $mise_path --force
-^~/.local/bin/mise install
 source ($nu.default-config-dir | path join mise.nu)
 mise_hook
-
+$env.PATH = ($env.PATH | split row (char esep) | prepend $"($env.HOME)/.local/share/mise/shims")
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
 mkdir $"($nu.cache-dir)"
 carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"

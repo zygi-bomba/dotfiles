@@ -197,3 +197,34 @@ starship
 cd
 cd test/he/
 ls
+chezmoi apply
+mise
+mise use starship
+nvim ~/.config/nushell/env.nu
+vi ~/.config/nushell/config.nu
+nvim ~/.config/nushell/env.nu
+nvim
+cd
+z
+nvim .config/mise/config.toml 
+mise install
+mise use
+nvim .config/mise/config.toml 
+mise config set auto_install true
+mise config set auto_install "true"
+nvim .config/mise/config.toml 
+nvim .config/mise/config.toml
+z
+nvim .config/nushell/config.nu 
+nvim .config/nushell/env.nu 
+ls
+z
+nvim
+starship 
+atuin 
+cd
+nvim .config/nushell/env.nu 
+nvim .config/nushell/config.nu 
+nvim .config/nushell/env.nu
+ls
+chezmoi add ~/.config/atuin/

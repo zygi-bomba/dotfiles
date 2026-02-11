@@ -1,3 +1,5 @@
+[settings]
+auto_install = true
 [tools]
 atuin = "latest"
 neovim = "latest"
@@ -6,3 +8,4 @@ zoxide = "latest"
 carapace = "latest"
 usage = "latest"
 fzf = "latest"
+starship = "latest"
