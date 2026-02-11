@@ -2,11 +2,11 @@
 
 set -e
 
-
-# Add mise activation to zsh
-if [ ! -f ~/.zshrc ] || ! grep -q "mise activate" ~/.zshrc; then
-    echo 'eval "$(mise activate zsh)"' >> ~/.zshrc
+if command -v mise &> /dev/null; then
+    echo "✓ Mise is already installed"
+    mise --version
+else
+    # Install mise
+    curl https://mise.run/zsh | sh
+    echo "✓ Mise installed successfully"
 fi
-
-echo "✓ Mise configured for zsh"
-echo "Please log out and back in for changes to take effect."
