@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Change shell to zsh
+chsh -s /usr/bin/zsh
+
+# Add mise activation to zsh
+if [ ! -f ~/.zshrc ] || ! grep -q "mise activate" ~/.zshrc; then
+    echo 'eval "$(mise activate zsh)"' >> ~/.zshrc
+fi
+
+echo "✓ Shell changed to zsh"
+echo "✓ Mise configured for zsh"
+echo "Please log out and back in for changes to take effect."
