@@ -1,0 +1,172 @@
+which nu
+ls
+ls | select name
+ls | select name | where nvim
+ls | where nvim | select name
+ls | where "nvim" | select name
+ls | he
+ls
+nvim 
+zsh
+rpm-ostree update
+reboot
+ls
+nvim
+vi .config/nushell/config.nu
+vi .config/nushell/env.nu
+exi
+cd .cache/
+ls
+ls | where carapace
+ls | grep
+ls | grep carapace
+cd carapace/
+ls
+cd
+vi .config/nushell/env.nu
+vi .config/nushell/config.nu
+vi .config/nushell/env.nu
+vi .config/nushell/config.nu
+mise
+nushell
+vi .config/nushell/config.nu
+where mise
+cd .local/bin/
+ls
+vi .config/nushell/config.nu
+vi ~/.config/nushell/config.nu
+mise
+vi ~/.config/nushell/config.nu
+vi ~/.config/nushell/env.nu
+vi ~/.config/nushell/config.nu
+vi ~/.config/nushell/env.nu
+mise
+vi ~/.config/nushell/config.nu
+~/.local/bin/mise
+'<\n>let mise_path = $nu.default-config-dir | path join mise.nu<\n>^mise activate nu | save $mise_path --force<\n>' | save $nu.env-path --append<\n>"\nuse ($nu.default-config-dir | path join mise.nu)" | save $nu.config-path --append
+mise
+vi ~/.config/nushell/env.nu
+mise
+cd
+mise
+vi ~/.config/nushell/env.nu
+vi ~/.config/nushell/config.nu
+mise
+vi ~/.config/nushell/config.nu
+vi ~/.config/nushell/env.nu
+mise install
+cd
+exit
+nu
+mise
+vi ~/.config/nushell/env.nu
+mise
+vi ~/.config/nushell/env.nu
+cd .local/bin/
+mise
+ls
+ls -a
+ls -l
+vi ~/.config/nushell/env.nu
+vi ~/.config/nushell/config.nu
+miose
+mise
+exit
+nu
+mise
+vi ~/.config/nushell/config.nu
+vi ~/.config/nushell/env.nu
+mise install
+cd .config/
+ls
+exit
+tmux
+nvim
+cd
+ls
+vi ~/.config/nushell/env.nu
+vi ~/.config/nushell/config.nu
+git send-email 
+mkdir hlep
+mkdir -h
+ls
+mise install starship
+mise use starship
+cd
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/nushell/env.nu 
+nvim ~/.config/nushell/config.nu 
+atui
+atuin
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/nushell/env.nu
+nu
+nvim ~/.config/nushell/env.nu
+mise
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/nushell/config.nu 
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/nushell/config.nu
+mise
+carapce
+carapace
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nushell/env.nu
+cd .local/share/chezmoi/
+ls
+chezmoi add ~/.config/atuin/
+cd .local/share/chezmoi/
+cat ~/.ssh/id_ed25519.pub 
+git push
+git remote remove origin 
+git remote add origin git@github.com:zygi-bomba/custom-fedora-image.git
+git push
+ls
+chezmoi remove
+chezmoi rm
+chezmoi destroy
+chezmoi destroy dot_config/nushell/
+ls dot_config/
+chezmoi destroy dot_config/private_atuin/
+cd dot_config/
+mise trust
+ls
+rm -rf private_atuin/ nushell/ ghostty/ carapace/
+cd ..
+ls
+git add *
+git commit -m "update"
+git push
+git pull
+git config pull.rebasue true
+git pull
+exit
+rpm-ostree update
+reboot
+cd .local/share/chezmoi/
+ls
+chezmoi add ~/.config/atuin/
+git rebase main
+ls
+cd
+git pull git@github.com:zygi-bomba/dotfiles.git
+git copy git@github.com:zygi-bomba/dotfiles.git
+git clone git@github.com:zygi-bomba/dotfiles.git
+cd test
+git cone git@github.com:zygi-bomba/dotfiles.git
+git clone git@github.com:zygi-bomba/dotfiles.git
+git clone git@github.com:zygi-bomba/dotfiles.git he
+cd he/
+ls
+cp ~/.config/ghostty/ dot_config/
+cp -r ~/.config/ghostty/ dot_config/
+cd dot_config/
+mise trust
+cp -r ~/.config/carapace// .
+cp -r ~/.config/carapace/ .
+cp -r ~/.config/atuin// .
+cp -r ~/.config/atuin/ .
