@@ -1,0 +1,8 @@
+[tools]
+atuin = "latest"
+neovim = "latest"
+tmux = "latest"
+zoxide = "latest"
+carapace = "latest"
+usage = "latest"
+fzf = "latest"
