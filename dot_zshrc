@@ -1,5 +1,6 @@
 # mise
 eval "$(/var/home/wiktor/.local/bin/mise activate zsh)" 
+mise install
 
 # Carapace
 autoload -U compinit && compinit
