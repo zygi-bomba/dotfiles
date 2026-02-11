@@ -170,3 +170,30 @@ cp -r ~/.config/carapace// .
 cp -r ~/.config/carapace/ .
 cp -r ~/.config/atuin// .
 cp -r ~/.config/atuin/ .
+cp -r ~/.config/nushell/ .
+ls
+cd ..
+ls
+git add *
+git commit -m "update"
+git push
+cd
+cd .local/share/chezmoi/
+ls
+git pull origin 
+ls
+cd
+rpm-ostree update
+nvim ~/.config/nushell/env.nu
+nvim ~/.config/nushell/config.nu
+nvim ~/.config/nushell/env.nu
+# Check if carapace is installed via mise<\n>mise list<\n><\n># Check if carapace is in your PATH<\n>which carapace<\n><\n># Check what's in the mise.nu file<\n>cat ~/.config/nushell/mise.nu
+ls
+nvim ~/.config/nushell/env.nu
+starship
+mise use starship
+nvim ~/.config/nushell/env.nu
+starship
+cd
+cd test/he/
+ls

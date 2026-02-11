@@ -20,6 +20,9 @@
 let mise_path = $nu.default-config-dir | path join mise.nu
 ^~/.local/bin/mise activate nu | save $mise_path --force
 ^~/.local/bin/mise install
+source ($nu.default-config-dir | path join mise.nu)
+mise_hook
+
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
 mkdir $"($nu.cache-dir)"
 carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"
@@ -28,4 +31,4 @@ starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.zoxide.nu
 
 mkdir ~/.local/share/atuin/
-atuin init nu | save ~/.local/share/atuin/init.nu
+atuin init nu | save -f ~/.local/share/atuin/init.nu
