@@ -228,3 +228,25 @@ nvim .config/nushell/config.nu
 nvim .config/nushell/env.nu
 ls
 chezmoi add ~/.config/atuin/
+chezmoi add ~/.config/nushell/
+chezmoi add ~/.config/mise/
+git add *
+git commit -m "nushell config"
+git pushh
+git push
+shutdown
+shutdown now
+ls
+cd .config/
+ls
+chezmoi -h
+ls
+chezmoi add ghostty/
+ls
+cd dot_config/
+ls
+cd
+cd .config/
+ls
+chezmoi add niri/
+chezmoi add noctalia/
