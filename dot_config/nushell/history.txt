@@ -250,3 +250,103 @@ cd .config/
 ls
 chezmoi add niri/
 chezmoi add noctalia/
+chezmoi add nushell/
+chezmoi add qt*
+chezmoi add gtk-*
+cd
+ls
+git add *
+git commit -m "catpuccin"
+git push
+ls
+flatpak install obsidian
+flatpak install syncthingy
+mkdir shared
+ls
+cd shared/
+ls
+ls
+cd .var/app/com.github.zocker_160.SyncThingy/
+ls
+nvim config/SyncThingy/settings.conf 
+dmesg
+sudo dmesg
+sudo dmesg | grep -i logi
+sudo dmesg | grep -i logitech
+sudo dmesg | grep -i usb
+reboot
+pkill syncthingy
+flatpak run com.github.zocker_160.SyncThingy 
+flatpak kill  com.github.zocker_160.SyncThingy
+flatpak run com.github.zocker_160.SyncThingy
+nvim config/SyncThingy/settings.conf 
+nvim .var/app/com.github.zocker_160.SyncThingy/config/SyncThingy/
+cd
+cd .config/niri/
+nvim config.kdl 
+flatpak run com.github.zocker_160.SyncThingy
+flatpak kill com.github.zocker_160.SyncThingy
+flatpak run com.github.zocker_160.SyncThingy
+sleep 3 && flatpak run com.github.zocker_160.SyncThingy
+sh -c "sleep 3 && flatpak run com.github.zocker_160.SyncThingy"
+nvim .config/niri/config.kdl 
+niri -h
+niri
+cd .config/niri/
+ls
+flatpak run com.github.zocker_160.SyncThingy<\n>
+nvim config.kdl 
+niri
+nvim config.kdl 
+nvim .config/niri/config.kdl 
+niri validate
+nvim .config/niri/config.kdl
+cd .config/niri/
+nvim config.kdl 
+ls
+flatpak run com.github.zocker_160.SyncThingy
+flatpak info  com.github.zocker_160.SyncThingy
+pgrep -a noctalia
+pgrep 
+nvim config.kdl 
+niri
+sh -c "ps aux|grep -i noctalia"
+sh -c "ps aux|grep -i quickshell"
+cd
+cd .config/niri/
+ls
+nvim config.kdl 
+pgrep -x quickshell
+niri
+nvim config.kdl
+niri
+nvim config.kdl
+niri
+cd .config/niri/
+nvim config.kdl
+ssh pi@192.168.2.100
+rpm-ostree kargs --append=acpi_backlight=video
+reboot
+systemd-analyze blame
+fwupdmgr refresh 
+fwupdmgr get-updates 
+fwupdmgr update 
+fwupdmgr upgrade 
+ssh pi@192.168.2.100
+cd .config/niri/
+ls
+nvim config.kdl 
+cd
+noctalia
+noctalia-shell ipc
+qs -c noctalia
+qs -c noctalia-shell
+nvim config.kdl
+qs -c noctalia-shell ipc
+qs -c noctalia-shell --help
+qs -c noctalia-shell ipc --help
+nvim config.kdl
+cd
+ls
+chezmoi help
+chezmoir re-add

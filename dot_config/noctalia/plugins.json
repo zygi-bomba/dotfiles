@@ -7,6 +7,16 @@
         }
     ],
     "states": {
+        "clipper": {
+            "enabled": true
+        },
+        "keybind-cheatsheet": {
+            "enabled": true
+        },
+        "privacy-indicator": {
+            "enabled": true,
+            "sourceUrl": "https://github.com/noctalia-dev/noctalia-plugins"
+        }
     },
-    "version": 1
+    "version": 2
 }

@@ -9,7 +9,7 @@
         },
         {
           "keys": "Super + T",
-          "desc": "Open a Terminal: alacritty"
+          "desc": "Open a Terminal: ghostty"
         },
         {
           "keys": "Super + D",
@@ -22,7 +22,7 @@
       ]
     },
     {
-      "title": "-l 1.0",
+      "title": "Focus windows",
       "binds": [
         {
           "keys": "Super + Left",
@@ -55,7 +55,12 @@
         {
           "keys": "Super + L",
           "desc": "Focus Column Right"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Move windows",
+      "binds": [
         {
           "keys": "Super + Ctrl + Left",
           "desc": "Move Column Left"
@@ -167,7 +172,12 @@
         {
           "keys": "Super + Shift + Ctrl + L",
           "desc": "Move Column To Monitor Right"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Workspace navigation",
+      "binds": [
         {
           "keys": "Super + Page_Down",
           "desc": "Focus Workspace Down"
@@ -247,12 +257,7 @@
         {
           "keys": "Super + Ctrl + Shift + WheelScrollUp",
           "desc": "Move Column Left"
-        }
-      ]
-    },
-    {
-      "title": "best effort",
-      "binds": [
+        },
         {
           "keys": "Super + 1",
           "desc": "Focus Workspace 1"
@@ -372,7 +377,12 @@
         {
           "keys": "Super + Ctrl + C",
           "desc": "Center Visible Columns"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Resize windows",
+      "binds": [
         {
           "keys": "Super + Minus",
           "desc": "Set Column Width \" 10%\""
@@ -388,7 +398,12 @@
         {
           "keys": "Super + Shift + Equal",
           "desc": "Set Window Height \"+10%\""
-        },
+        }
+      ]
+    },
+    {
+      "title": "Floating windows",
+      "binds": [
         {
           "keys": "Super + V",
           "desc": "Toggle Window Floating"
@@ -400,7 +415,12 @@
         {
           "keys": "Super + W",
           "desc": "Toggle Column Tabbed Display"
-        },
+        }
+      ]
+    },
+    {
+      "title": "Screen Capture",
+      "binds": [
         {
           "keys": "PrtSc",
           "desc": "Screenshot"
@@ -428,5 +448,10 @@
       ]
     }
   ],
-  "detectedCompositor": "niri"
+  "detectedCompositor": "niri",
+  "niriConfigPath": "~/.config/niri/config.kdl",
+  "hyprlandConfigPath": "~/.config/hypr/hyprland.conf",
+  "modKeyVariable": "$mod",
+  "windowHeight": 850,
+  "windowWidth": 1400
 }

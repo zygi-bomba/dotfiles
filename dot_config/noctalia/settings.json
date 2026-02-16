@@ -8,7 +8,7 @@
         "customLaunchPrefixEnabled": false,
         "density": "default",
         "enableClipPreview": true,
-        "enableClipboardHistory": false,
+        "enableClipboardHistory": true,
         "enableSettingsSearch": true,
         "enableWindowsSearch": true,
         "iconMode": "tabler",
@@ -149,6 +149,9 @@
             ],
             "right": [
                 {
+                    "id": "plugin:privacy-indicator"
+                },
+                {
                     "blacklist": [
                     ],
                     "chevronColor": "none",
@@ -160,12 +163,24 @@
                     ]
                 },
                 {
+                    "id": "plugin:keybind-cheatsheet"
+                },
+                {
+                    "id": "plugin:clipper"
+                },
+                {
                     "hideWhenZero": false,
                     "hideWhenZeroUnread": false,
                     "iconColor": "none",
                     "id": "NotificationHistory",
                     "showUnreadBadge": true,
                     "unreadBadgeColor": "primary"
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
+                    "id": "Network",
+                    "textColor": "none"
                 },
                 {
                     "deviceNativePath": "__default__",
@@ -388,7 +403,7 @@
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "Tokyo",
+        "name": "Warsaw",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
