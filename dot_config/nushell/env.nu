@@ -16,12 +16,24 @@
 #
 # You can remove these comments if you want or leave
 # them for future reference.
-
+$env.ENV_CONVERSIONS = {
+    "PATH": {
+        from_string: { |s| $s | split row (char esep) | path expand --no-symlink }
+        to_string: { |v| $v | path expand --no-symlink | str join (char esep) }
+    }
+}
+$env.config = ($env.config? | default {})
+$env.config = ($env.config | upsert hooks {
+    pre_prompt: ($env.config.hooks?.pre_prompt? | default [])
+    env_change: {
+        PWD: ($env.config.hooks?.env_change?.PWD? | default [])
+    }
+})
 let mise_path = $nu.default-config-dir | path join mise.nu
 ^~/.local/bin/mise activate nu | save $mise_path --force
 source ($nu.default-config-dir | path join mise.nu)
 mise_hook
-$env.PATH = ($env.PATH | split row (char esep) | prepend $"($env.HOME)/.local/share/mise/shims")
+$env.PATH = ($env.PATH | prepend $"($env.HOME)/.local/share/mise/shims" | uniq)
 $env.CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
 mkdir $"($nu.cache-dir)"
 carapace _carapace nushell | save --force $"($nu.cache-dir)/carapace.nu"

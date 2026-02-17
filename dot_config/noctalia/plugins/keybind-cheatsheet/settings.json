@@ -1,23 +1,28 @@
 {
   "cheatsheetData": [
     {
-      "title": "Mod",
+      "title": "Applications",
       "binds": [
-        {
-          "keys": "Super + Shift + Slash",
-          "desc": "Show Hotkey Overlay"
-        },
         {
           "keys": "Super + T",
           "desc": "Open a Terminal: ghostty"
         },
         {
           "keys": "Super + D",
-          "desc": "Run an Application: fuzzel"
+          "desc": "Run an Application: menu"
         },
         {
           "keys": "Super + Alt + L",
           "desc": "Lock the Screen: swaylock"
+        }
+      ]
+    },
+    {
+      "title": "Mod",
+      "binds": [
+        {
+          "keys": "Super + Shift + Slash",
+          "desc": "Show keybind cheatsheet"
         }
       ]
     },

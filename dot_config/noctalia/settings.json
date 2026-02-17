@@ -9,6 +9,7 @@
         "density": "default",
         "enableClipPreview": true,
         "enableClipboardHistory": true,
+        "enableSessionSearch": true,
         "enableSettingsSearch": true,
         "enableWindowsSearch": true,
         "iconMode": "tabler",
@@ -145,11 +146,20 @@
                     "textColor": "none",
                     "useFixedWidth": false,
                     "visualizerType": "linear"
+                },
+                {
+                    "defaultSettings": {
+                        "activeColor": "primary",
+                        "hideInactive": false,
+                        "inactiveColor": "none",
+                        "removeMargins": false
+                    },
+                    "id": "plugin:privacy-indicator"
                 }
             ],
             "right": [
                 {
-                    "id": "plugin:privacy-indicator"
+                    "id": "plugin:screen-recorder"
                 },
                 {
                     "blacklist": [
@@ -163,9 +173,13 @@
                     ]
                 },
                 {
-                    "id": "plugin:keybind-cheatsheet"
-                },
-                {
+                    "defaultSettings": {
+                        "enableTodoIntegration": false,
+                        "notecardsEnabled": true,
+                        "pincardsEnabled": true,
+                        "position": "Bottom",
+                        "showCloseButton": false
+                    },
                     "id": "plugin:clipper"
                 },
                 {
@@ -196,12 +210,6 @@
                     "iconColor": "none",
                     "id": "Volume",
                     "middleClickCommand": "pwvucontrol || pavucontrol",
-                    "textColor": "none"
-                },
-                {
-                    "displayMode": "onhover",
-                    "iconColor": "none",
-                    "id": "Brightness",
                     "textColor": "none"
                 },
                 {
@@ -473,7 +481,7 @@
         "overlayLayer": true
     },
     "plugins": {
-        "autoUpdate": false
+        "autoUpdate": true
     },
     "sessionMenu": {
         "countdownDuration": 10000,
@@ -484,33 +492,38 @@
         "powerOptions": [
             {
                 "action": "lock",
-                "enabled": true
+                "enabled": true,
+                "keybind": "1"
             },
             {
                 "action": "suspend",
-                "enabled": true
+                "enabled": true,
+                "keybind": "2"
             },
             {
                 "action": "hibernate",
-                "enabled": true
+                "enabled": true,
+                "keybind": "3"
             },
             {
                 "action": "reboot",
-                "enabled": true
+                "enabled": true,
+                "keybind": "4"
             },
             {
                 "action": "logout",
-                "enabled": true
+                "enabled": true,
+                "keybind": "5"
             },
             {
                 "action": "shutdown",
-                "enabled": true
+                "enabled": true,
+                "keybind": "6"
             }
         ],
-        "showHeader": true,
-        "showNumberLabels": true
+        "showHeader": true
     },
-    "settingsVersion": 51,
+    "settingsVersion": 53,
     "systemMonitor": {
         "batteryCriticalThreshold": 5,
         "batteryWarningThreshold": 20,
@@ -589,6 +602,8 @@
         "directory": "/var/home/wiktor/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
+        "favorites": [
+        ],
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
@@ -601,6 +616,7 @@
         "randomIntervalSec": 300,
         "setWallpaperOnAllMonitors": true,
         "showHiddenFiles": false,
+        "skipStartupTransition": false,
         "solidColor": "#1a1a2e",
         "sortOrder": "name",
         "transitionDuration": 1500,

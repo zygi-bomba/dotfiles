@@ -16,9 +16,11 @@ def --env "update-env" [] {
   }
 }
 export-env {
-  $env.PATH = r#'/var/home/wiktor/.config/carapace/bin:/var/home/wiktor/.local/bin:/var/home/wiktor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin'#
-
-  'set,PATH,/var/home/wiktor/.config/carapace/bin:/var/home/wiktor/.local/bin:/var/home/wiktor/.local/share/mise/shims:/var/home/wiktor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin
+  
+  'hide,CARGO_HOME,
+hide,RUSTUP_HOME,
+hide,RUSTUP_TOOLCHAIN,
+set,PATH,/var/home/wiktor/.local/bin:/var/home/wiktor/bin:/var/home/wiktor/.config/carapace/bin:/var/home/wiktor/.local/bin:/var/home/wiktor/.local/share/mise/shims:/var/home/wiktor/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin
 hide,MISE_SHELL,
 hide,__MISE_DIFF,
 hide,__MISE_DIFF,' | parse vars | update-env

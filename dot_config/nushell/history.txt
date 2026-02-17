@@ -350,3 +350,266 @@ cd
 ls
 chezmoi help
 chezmoir re-add
+chezmoi re-add
+ls -l
+l
+sl
+ls
+cd dot_config/
+ls
+qs -c noctalia-shell -v
+qs -c noctalia-shell -h
+qs -c noctalia-shell -V
+qs -c noctalia-shell -v
+sudo rpm-ostree upgrade
+git commit -m "noctalia plugins"
+git add .
+git commit -m "noctalia plugins"
+git push
+git clone https://github.com/milckywayy/ISOD_Notifier.git test
+ls
+cd test/
+ls
+rpm-ostree upgrade
+reboot
+ls
+cd Downloads/
+ls
+nvim constants.cpython-311.pyc 
+flatpak update
+ls
+toolbox enter dev
+nvim ~/.config/opencode/package.json 
+opencode
+opencode auth api
+opencode auth login
+nvim ~/.config/opencode/package.json
+ls
+nvim ~/.config/opencode/opencode.json
+opencode auth login
+toolbox enter dev
+cd .config/niri/
+ls
+nvim config.kdl 
+ls
+cd
+ls
+mkdir isod.sh
+ls
+cd isod.sh/
+ls
+opencode
+mise 
+mise update
+ls
+ls -a
+mise self-update
+mise gloval-update
+mise upgrade
+curl "https://isod.ee.pw.edu.pl/isod-portal/wapi?q=myclass&username=wiktor.godula&apikey=yINJiEEOayGgqNtruxAxhA&semester2025Z"
+curl "https://isod.ee.pw.edu.pl/isod-portal/wapi?q=myclass&username=wiktor.godula&apikey=yINJiEEOayGgqNtruxAxhA&semester=2025Z"
+curl "https://isod.ee.pw.edu.pl/isod-portal/wapi?q=myclass&username=wiktor.godula&apikey=yINJiEEOayGgqNtruxAxhA&semestr=2025Z"
+curl "https://isod.ee.pw.edu.pl/isod-portal/wapi?q=myclass&username=wiktor.godula&apikey=yINJiEEOayGgqNtruxAxhA&sem=2026L"
+curl "https://isod.ee.pw.edu.pl/isod-portal/wapi?q=myclass&username=TWOJA_NAZWA_UZYTKOWNIKA&apikey=TWOJ_KLUCZ_API&id=ID_ZAJEC"
+ls
+ls 0a
+ls -a
+opencode
+ls
+cd isod-cli/
+ls
+cd src/
+ls
+nvim models.rs 
+cd //
+cd
+cd isod.sh/
+cd
+rm isod.sh/
+rm -rf isod.sh/
+ls
+mkdir isod-cli
+cd isod-cli/
+toolbox enter dev
+cd
+nvim models.rs 
+toolbox enter dev
+cd
+nvim .config/nushell/mise.nu
+bash
+exit
+nvim .config/nushell/mise.nu
+nvim .config/nushell/env.nu 
+toolbox run bash
+nvim .config/nushell/config.nu 
+ls
+nvim .config/nushell/env.nu 
+chezmoi re-add
+ls
+cd isod-cli/
+ls
+cargo init
+cargo add tokio --features full
+cargo add reqwest --features json
+cargo add serde --feature derive
+cargo add serde --features derive
+cargo add serde_json
+ls
+cargo add clap --features derive
+cargo add dotenvy
+cargo run
+nvim .env
+git
+ls -a
+nvim .gitignore 
+cd src/
+ls
+nvim models.rs 
+nvim api.rs
+nvim main.rs 
+cargo run -- news
+nvim main.rs
+cargo run -- news
+nvim api.rs 
+cargo run -- news
+nvim models.rs 
+cargo run -- news
+nvim api.rs
+nvim api.rs 
+cargo run -- news
+nvim models.rs 
+opencode
+nvim main.rs 
+ls
+cd ..
+ls
+git add .
+git commit -m "first commit"<\n>git branch -M main<\n>git remote add origin git@github.com:zygi-bomba/isod-cli.git<\n>git push -u origin main
+nvim models.rs 
+cd src/
+nvim models.rs 
+cargo run -- news
+nvim models.rs
+cargo run -- news
+ls
+cd
+ls
+cd isod-cli/
+ls
+git add .
+git commit -m "news fetching"
+git push
+ls
+ls -a
+ls
+nvim .gitignore 
+opencode
+cargo run -- --help
+cargo run -- -V
+ls
+nvim src/
+cargo run -- news
+git add .
+git commit -m "added config.rs"
+ls
+nvim cd src/
+cd src/
+ls
+nvim api.rs 
+nvim api.rs
+git add .
+git commit -m "english messages"
+cargo run -- news
+opencode
+nvim main.rs 
+ls
+nvim models.rs 
+cargo add chrono
+nvim ../Cargo.toml 
+nvim main.rs 
+cargo run -- news
+nvim main.rs
+cargo run -- news
+nvim main.rs
+cargo run -- news
+nvim main.rs
+nvim main.rs 
+nvim api.rs 
+nvim models.rs 
+nvim main.rs 
+cargo run -- news
+nvim main.rs
+cargo run -- news --hash
+nvim main.rs
+cargo run -- news
+cargo run -- news -H  NEWS_9B4Tny9EpOXwRMXSDA9A
+nvim main.rs 
+cargo add html2text
+nvim main.rs
+cargo run -- news -H  NEWS_9B4Tny9EpOXwRMXSDA9A
+nvim main.rs
+cargo run -- news
+nvim main.rs
+cargo run -- news
+cargo run -- news -i 7
+nvim main.rs 
+cargo run -- news
+cargo run -- news -i 7
+ls
+cd ..
+git add . 
+git commit -m "display message content"
+git push
+cargo run -- news -h
+nvim src
+nvim models.rs 
+cd src/
+nvim models.rs 
+nvim models.rs
+cargo run -- news -h
+cargo run -- news -i 7
+nvim main.rs 
+nvim config.rs 
+ls
+cd ..
+ls
+ls -a
+cd
+chezmoi re-add
+exit
+toolbox enter dev
+chezmoi re-add
+cd
+ls
+cd dot_config/
+ls
+cd ..
+ls
+nvim ~/.bashrc 
+bash
+cd
+nvim ~/.bashrc
+bash
+ls
+nvim .config/nushell/env.nu 
+cd dot_config/
+ls
+nvim .cache/starship/init.nu 
+cd
+cd .config/
+mkdir starshp
+rm starshp/
+mkdir starship
+rm -rf starship/
+nvim .starship.toml
+starship explain
+mv .starship.toml starship.toml
+nvim .starship.toml
+nvim starship.toml 
+nvim starship.toml
+ls
+chezmoi add ~/.config/starship.toml
+chezmoi add ~/.bashrc
+ls
+cd ..
+ls
