@@ -613,3 +613,60 @@ chezmoi add ~/.bashrc
 ls
 cd ..
 ls
+rpm-ostree upgrade
+reboot
+wireguard
+ps aux | grep -i ssh
+bash
+cd .var/app/app.zen_browser.zen/.zen/xa6c5c3l.Default (release)/
+cd `.var/app/app.zen_browser.zen/.zen/xa6c5c3l.Default (release)/`
+ls
+ls chrome/
+ls ../
+ls
+cd ..
+ls
+fzf user.js
+fzf "user.js"
+fzf
+nvim "xa6c5c3l.Default (release)/prefs.js" 
+nmcli 
+ls
+cd isod-cli/
+ls
+nvim src/
+ls
+cargo run -- news -i 7
+ls
+cd isod-cli/
+exit
+bash
+ls
+cargo run -- news -i 7
+cargo run -- news
+ls
+cd src/
+ls
+nvim main.rs 
+cargo run -- news
+rpm-ostree upgrade
+reboot
+sudo openconnect https://vpn.ee.pw.edu.pl/
+sudo openconnect https://vpn.ee.pw.edu.pl/ &
+ip link
+if ip addr show | grep -q "tun0"; then<\n>    echo " VPN (Split)"<\n>else<\n>    echo " Public"<\n>fi
+https://gemini.google.com/app/387f914b8e6a0f46
+nmcli connection show --active
+sudo openconnect https://vpn.ee.pw.edu.pl/
+nmcli connection show --active
+sudo openconnect https://vpn.ee.pw.edu.pl/
+rpm-ostree NetworkManager-openconnect-gnome
+rpm-ostree install NetworkManager-openconnect-gnome
+journalctl -f | grep noctalia
+nmtui
+journalctl -f | grep quickshell
+rpm-ostree install nmtui
+nm-connection-editor
+nmcli --ask connection up 
+nmcli --ask connection up "Split PW"
+nvim wg0.conf
