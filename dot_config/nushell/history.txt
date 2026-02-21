@@ -670,3 +670,36 @@ nm-connection-editor
 nmcli --ask connection up 
 nmcli --ask connection up "Split PW"
 nvim wg0.conf
+sudo systemctl enable --now libvirtd
+ls
+cd .config/distrobox/
+ls
+nvim distrobox.ini 
+ls
+nvim distrobox.ini 
+rpm-ostree remove libvirtd
+cd .config/distrobox/
+rpm-ostree remove libvirt-client
+nvim distrobox.ini 
+distrobox assemble create
+distrobox enter --root virt-ubuntu<\n>
+distrobox enter --root virt-ubuntu
+bash
+nvim distrobox.ini
+distrobox enter --root virt-ubuntu
+distrobox assemble create
+distrobox enter --root virt-ubuntu
+nvim distrobox.ini
+distrobox list 
+distrobox rm ubuntu-dev 
+distrobox rm virt-container 
+distrobox assemble create
+distrobox enter --root virtualization<\n>
+distrobox enter --root ubuntu-virt-manager -- virt-manager
+distrobox enter --root virtualization -- virt-manager
+l
+ls
+cd
+ls
+ls dot_config/
+chezmoir re-add
