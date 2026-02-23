@@ -1,4 +1,4 @@
-[settings]
+j:q:q:q!uuuuuuuuuuuuu:q9;133u9;133u9;133u9;133u9;133uings]
 auto_install = true
 [tools]
 atuin = "latest"
@@ -10,6 +10,3 @@ fzf = "latest"
 starship = "latest"
 opencode = "latest"
 rust = "latest"
-neovim = "latest"
-fd = "latest"
-rg = "latest"

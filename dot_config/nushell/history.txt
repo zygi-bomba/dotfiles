@@ -703,3 +703,17 @@ cd
 ls
 ls dot_config/
 chezmoir re-add
+ls
+nvim test
+ls
+nvim .config/nushell/env.nu 
+ghostty
+exit
+tmux
+ls
+nvim .config/ghostty/config 
+ls
+nvim .config/ghostty/config
+chezmoir re-add
+chezmoi re-add
+exit
