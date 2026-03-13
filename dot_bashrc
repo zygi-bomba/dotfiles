@@ -29,3 +29,4 @@ export CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
 source <(carapace _carapace)
 eval "$(zoxide init bash)"
 eval "$(starship init bash)"
+eval "$(atuin init bash)"

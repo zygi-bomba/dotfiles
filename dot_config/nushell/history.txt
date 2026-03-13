@@ -717,3 +717,98 @@ nvim .config/ghostty/config
 chezmoir re-add
 chezmoi re-add
 exit
+nvim main.c 
+wc *
+nvim main.c
+ls
+rm 4
+ls
+cd ..
+ls
+make
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+./wizualizacja_grafu -i data/graf.txt -o test
+nvim 
+make
+nvim 
+make
+./wizualizacja_grafu -i data/graf.txt -o test
+ls
+nvim src/main.c 
+make
+./wizualizacja_grafu -i data/graf.txt -o test
+ls
+cat src/*
+cat src/* | wl-copy
+bash
+./wizualizacja_grafu -i data/graf.txt -o test
+cat test 
+./wizualizacja_grafu -i data/graf.txt -o test
+cat test
+./wizualizacja_grafu -i data/graf.txt -o test
+cat test
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+cat test
+cat data/wiekszy-graf.txt 
+nvim data/wiekszy-graf.txt 
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+cat test
+python
+nvim draw.py
+python draw.py 
+sudo dnf install pip
+pip install matplotlib
+python draw.py
+nvim draw.py 
+python draw.py
+nvim draw.py
+nvim data/wiekszy-graf.txt 
+nvim draw.py
+python draw.py
+ls
+rm draw.py
+ls
+nvim src/
+ls
+rm wizualizacja_grafu
+ls
+cat src/*
+cat src/* | wl-copy
+ls
+ls src/
+nvim src/io_manager.c 
+make
+nvim src/io_manager.c 
+cat src/* | wl-copy
+nvim src/io_manager.c
+make
+ls
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+cat test 
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+cat test
+ls
+cat src/* | wl-copy
+nvim src/io_manager.c
+make
+./wizualizacja_grafu -i data/wiekszy-graf.txt -o test
+cat test 
+ls
+rm test wizualizacja_grafu
+ls
+git add *
+ls
+git commit 
+ls
+git push -u origin vertices-id
+git rebase -i HEAD~2
+git push
+ls
+git push -u origin vertices-id --force-with-lease 
+git switch main
+git merge vertices-id 
+git push origin main
+git branch --delete vertices-id 
+git push origin main
+git push origin --delete verticies-id
+git push origin --delete vertices-id
