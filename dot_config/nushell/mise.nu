@@ -17,10 +17,7 @@ def --env "update-env" [] {
 }
 export-env {
   
-  'set,PATH,/var/home/wiktor/.config/carapace/bin:/var/home/wiktor/.local/bin:/var/home/wiktor/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/local/bin:/usr/bin:/usr/sbin:/sbin:/bin
-hide,MISE_SHELL,
-hide,__MISE_DIFF,
-hide,__MISE_DIFF,' | parse vars | update-env
+  '' | parse vars | update-env
   $env.MISE_SHELL = "nu"
   let mise_hook = {
     condition: { "MISE_SHELL" in $env }

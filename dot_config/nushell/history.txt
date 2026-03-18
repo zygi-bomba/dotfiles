@@ -812,3 +812,14 @@ git branch --delete vertices-id
 git push origin main
 git push origin --delete verticies-id
 git push origin --delete vertices-id
+git rebase -i HEAD~4
+git rebase -i HEAD~3
+ls
+git push origin planarity
+git push origin planarity --force-with-lease
+ls
+cd dot_config/
+ls
+chezmoi re-add\
+chezmoi re-add
+exit
