@@ -823,3 +823,29 @@ ls
 chezmoi re-add\
 chezmoi re-add
 exit
+bash
+exit
+atuin info | grep "DB path"
+exit
+atuin info
+exit
+echo $ATUIN_SESSION
+bash
+mise
+mise install
+mise upgrade
+rm -rf .cache/mise/atuin/18.12.1/
+ls
+atuin
+distrobox-export --app ~/opt/REAPER/reaper
+cd
+opt/REAPER/reaper
+ls
+opt/REAPER/reaper
+distrobox-export --app /opt/REAPER/reaper
+ls
+cd .config/distrobox/
+ls
+nvim distrobox.ini 
+chezmoi re-add
+exit
