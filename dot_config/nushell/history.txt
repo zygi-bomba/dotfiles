@@ -849,3 +849,6 @@ ls
 nvim distrobox.ini 
 chezmoi re-add
 exit
+atuin search 
+cd
+exit
