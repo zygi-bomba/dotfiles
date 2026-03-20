@@ -165,7 +165,6 @@
 ## If set to false, both enter and tab will place the command in the prompt for editing.
 ## This applies for new installs. Old installs will keep the old behaviour unless configured otherwise.
 enter_accept = true
-search_mode = "daemon-fuzzy"
 
 ## Defaults to false. If enabled, when triggered after &&, || or |, Atuin will complete commands to chain rather than replace the current line.
 # command_chaining = false
@@ -260,10 +259,12 @@ records = true
 # strategy = "auto"
 
 [daemon]
-enabled = true
-autostart = true
-## Enables using the daemon to sync. Requires the daemon to be running in the background. Start it with `atuin daemon`
+## Enables using the daemon to sync.
 # enabled = false
+
+## Automatically start and manage the daemon when needed.
+## Not compatible with `systemd_socket = true`.
+# autostart = false
 
 ## How often the daemon should sync in seconds
 # sync_frequency = 300
@@ -272,6 +273,10 @@ autostart = true
 ## linux/mac: ~/.local/share/atuin/atuin.sock
 ## windows: Not Supported
 # socket_path = "~/.local/share/atuin/atuin.sock"
+
+## The daemon pidfile used for lifecycle management.
+## Defaults to the Atuin data directory.
+# pidfile_path = "~/.local/share/atuin/atuin-daemon.pid"
 
 ## Use systemd socket activation rather than opening the given path (the path must still be correct for the client)
 ## linux: false
@@ -308,8 +313,8 @@ autostart = true
 ## When enabled and running inside tmux, Atuin will use a popup window for interactive search.
 ## Set to false to disable the popup.
 ## This can also be controlled with the ATUIN_TMUX_POPUP environment variable.
-## Note: tmux popup is currently supported in zsh, bash, and fish shells.
-# enabled = true
+## Note: The tmux popup is currently supported in zsh, bash, and fish shells. This currently doesn't work with iTerm native tmux integration.
+# enabled = false
 
 ## Width of the tmux popup window
 ## Can be a percentage, or integer (e.g. "100" means 100 characters wide)
