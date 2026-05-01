@@ -852,3 +852,41 @@ exit
 atuin search 
 cd
 exit
+ls
+cd wgp-gui/
+ls
+alias java = _JAVA_AWT_WM_NONREPARENTING=1 java
+java Main.java
+alias java = "_JAVA_AWT_WM_NONREPARENTING=1 java"
+_JAVA_AWT_WM_NONREPARENTING=1 java
+_JAVA_AWT_WM_NONREPARENTING=1 java Main.java
+java
+javac
+alias java = java
+java
+ls
+java
+cd wgp-gui/
+_JAVA_AWT_WM_NONREPARENTING=1 java Main.java
+alias java = _JAVA_AWT_WM_NONREPARENTING=1 java
+java
+java Main.java
+$env._JAVA_AWT_WM_NONREPARENTING=1
+$env._JAVA_AWT_WM_NONREPARENTING = 1
+java Main.java
+cd wgp-gui/
+java Main.java
+cd wgp-gui/
+ls
+java Main.java
+nvim .env
+jab
+java Main.java
+cd
+nvim .config/nushell/env.nu 
+ls
+cd wgp-gui/
+ls
+java Main.java
+cd
+exit

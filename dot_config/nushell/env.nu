@@ -43,3 +43,5 @@ zoxide init nushell | save -f ~/.zoxide.nu
 
 mkdir ~/.local/share/atuin/
 atuin init nu | save -f ~/.local/share/atuin/init.nu
+
+$env._JAVA_AWT_WM_NONREPARENTING = "1"
